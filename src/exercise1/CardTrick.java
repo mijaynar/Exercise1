@@ -31,7 +31,7 @@ public class CardTrick {
             //       Don't worry about duplicates at this point
         }
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Guess and enter any card number");
+        System.out.println("Guess and enter any card number: ");
         int guessedValue = scanner.nextInt();
         System.out.println("Enter the suit of the card you want to guess (1 for Hearts, 2 for Diamonds, 3 for Spades, 4 for Clubs):");
         int guessedSuit = scanner.nextInt();
@@ -61,7 +61,8 @@ public class CardTrick {
      * A simple method to print out personal information. Follow the instructions to 
      * replace this information with your own.
      * @author Paul Bonenfant Jan 2022
-     */
+//     */ 
+//    I am done!
     private static void printInfo() {
     
         System.out.println("Congratulations, you guessed right!");
